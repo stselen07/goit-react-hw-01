@@ -1,0 +1,60 @@
+.container {
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  .avatar {
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: black;
+    width: 160px;
+  }
+  .username {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .tag {
+    font-size: 27px;
+    color: rgb(128, 128, 128);
+    margin: 0;
+  }
+  
+  .location {
+    margin: 0;
+    font-size: 27px;
+    color: rgb(128, 128, 128);
+    margin-bottom: 15px;
+  }
+  
+  .list {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  
+    list-style: none;
+    display: inline-flex;
+  }
+  
+  .item {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    height: 80px;
+    background-color: rgb(223, 216, 216);
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(128, 128, 128);
+  }
+  .item:last-child {
+    border-end-end-radius: 14px;
+  }
+  
+  .item:first-child {
+    border-end-start-radius: 14px;
+  }
+  .span {
+    height: 50%;
+  }
