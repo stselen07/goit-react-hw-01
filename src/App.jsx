@@ -10,7 +10,7 @@ export default function App() {
   return (
     
     <>
-      < Profile data={userData} />
+      <Profile data={userData} />
       <FriendList data={friends} />
       <TransactionHistory data ={transaction} />
     </>
